@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="cupcake">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,10 +24,10 @@
               body: "#1A202C",
             },
             fontFamily: {
-                Manrope: "Manrope",
+              Manrope: "Manrope",
             },
             backgroundImage: {
-                paper_bg: "url('./assets/bg.jpg')",
+              paper_bg: "url('./assets/bg.jpg')",
             },
           },
         },
@@ -51,20 +51,69 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="font-Manrope">
     <!-- Header section starts -->
-    <header>
-
+    <header class="w-11/12 mx-auto">
+      <nav>
+        <div class="navbar mt-6">
+          <div class="navbar-start">
+            <div
+              class="flex items-center justify-center h-5 w-5 m-1 bg-green-400 rounded-full"
+            >
+              <i class="fa-solid fa-arrow-up rotate-45"></i>
+            </div>
+            <a class="text-xl font-bold">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-gray-500">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="sm:flex space-x-2 hidden items-center">
+              <div
+                class="flex justify-center items-center bg-white h-10 w-10 rounded-full"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div
+                class="flex justify-center items-center bg-white h-10 w-10 rounded-full"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="bg-green-400 p-2 rounded-full">
+                <span class="text-sm ml-1 font-bold">Book Consult</span>
+                <i class="fa-solid fa-circle-arrow-up m-1 rotate-45"></i>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="flex justify-center items-center bg-white h-10 w-10 rounded-full lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
+              >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Main section starts -->
-    <main>
-
-    </main>
+    <main></main>
 
     <!-- Footer section starts -->
-     <footer>
-        
-     </footer>
+    <footer></footer>
   </body>
 </html>
